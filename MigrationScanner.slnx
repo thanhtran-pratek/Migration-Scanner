@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MigrationScanner.Tests/MigrationScanner.Tests.csproj" />
+  <Project Path="MigrationScanner/MigrationScanner.csproj" />
+</Solution>

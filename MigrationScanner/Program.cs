@@ -21,7 +21,7 @@ rootCommand.Add(outputOption);
 
 rootCommand.SetAction(async (ParseResult parseResult) =>
 {
-    var path = "C:\\Users\\TranVanThanh\\Documents\\Workspaces\\e-office\\Pratek.EOffice.Application";
+    var path = "";
     var output = parseResult.GetValue(outputOption)!;
 
     Console.WriteLine($"Scanning: {path}");
